@@ -12,7 +12,7 @@ header h1{
 }
 
 .accordion{
-    max-width: 400px;
+    width: 400px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
     border-radius: 5px;
     overflow: hidden;
@@ -78,16 +78,17 @@ header h1{
     display: flex;
     flex-wrap: wrap;
     max-width: 600px;
-    margin: 50px auto;
     padding: 25px;
 }
 .mytabs input[type="radio"] {
     display: none;
 }
 .mytabs label {
-    padding: 25px;
+    width: 100%;
+    padding: 10px;
     background: #e2e2e2;
     font-weight: bold;
+    text-align: center;
 }
 
 .mytabs .tab {
@@ -111,4 +112,5 @@ header h1{
 
 main{
     display: flex;
+    justify-content: space-around;
 }
