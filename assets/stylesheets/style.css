@@ -4,12 +4,9 @@ header{
     border-style: solid;
     border-color: #009578;
     margin-bottom: 30px;
+    color:#009578;
 }
 
-header h1{
-    color:#009578;
-    
-}
 
 .accordion{
     width: 400px;
